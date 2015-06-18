@@ -1,0 +1,14 @@
+{
+	"__comment": "This is a simple TCP server configuration JSON File",
+	"socket": {
+		"host": "go.gman.io",
+		"port": 7777,
+		"sElevatorRequestSignal": [0,7,0,0,0,6,0,3,0,0,0,1],
+		"sDoorRequestSignal": [0,7,0,0,0,6,0,3,0,0,0,2],
+		"requestInterval": 1000
+	},
+	"server": {
+		"port": 8124,
+		"min_connection": 2
+	}
+}
